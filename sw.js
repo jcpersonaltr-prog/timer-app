@@ -1,6 +1,6 @@
 /* Perfektus Timer — service worker: guarda a app no iPhone para funcionar sem internet.
    Para forçar uma atualização depois de alterar o index.html, muda o número da versão. */
-const CACHE = 'perfektus-timer-v3';
+const CACHE = 'perfektus-timer-v4';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
